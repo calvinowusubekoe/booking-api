@@ -5,7 +5,7 @@ import { getAllBookings, getOneBooking, postBookings, updateBookings,deleteBooki
 
 export const bookingRouter = Router()
 
-bookingRouter.get('/booking', getAllBookings)
+bookingRouter.get('/book', getAllBookings)
 
 bookingRouter.get('/booking_1', getOneBooking)
 

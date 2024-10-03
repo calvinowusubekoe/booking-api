@@ -15,7 +15,7 @@ bookingApp.use (bookingRouter)
  
 
 // Define route
-bookingApp.get('/booking', (req, res, next) => {
+bookingApp.get('/book', (req, res, next) => {
     console.log(req.headers);
     res.json('You booked a seat');
 });
